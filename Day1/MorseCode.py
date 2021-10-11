@@ -67,6 +67,10 @@ def decodeMorse(morse_code):
 		decod.append(dec)
 	print(" ".join(decod))
 
+
+def decodeOpt(morse_code):
+	return ' '.join(''.join(MORSE_CODE[letter] for letter in word.split(' ')) for word in morseCode.strip().split('   '))
+
 def test_and_print():
 	decodeMorse('.... . -.--   .--- ..- -.. .')
 	decodeMorse('.   .')
