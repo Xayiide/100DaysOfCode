@@ -1,4 +1,3 @@
-
 MORSE_CODE = {
 	'.-'      : 'A',
 	'-...'    : 'B',
@@ -60,7 +59,7 @@ MORSE_CODE = {
 def decodeMorse(morse_code):
 	morse_code = morse_code.strip()
 	decod = []
-	for i, word in enumerate(morse_code.split("   ")):
+	for word in morse_code.split("   "):
 		dec = ""
 		for letter in word.split(" "):
 			dec += MORSE_CODE[letter]
