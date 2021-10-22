@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <inttypes.h>
 
 
 // 1^2 + 2^2 + 3^2 + ... + n^2 
