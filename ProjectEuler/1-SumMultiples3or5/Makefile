@@ -11,4 +11,4 @@ $(TARGET) : $(TARGET).c
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
 
 clean:
-	@rm *.o $(TARGET)
+	$(RM) $(TARGET)

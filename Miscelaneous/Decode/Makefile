@@ -1,7 +1,7 @@
 
-CC	= gcc
+CC	= g++
 CFLAGS  = -g -Wall -Wextra -pedantic
-TARGET  = sumFibonacciEven
+TARGET  = hexDecod
 
 .PHONY: clean, all
 
